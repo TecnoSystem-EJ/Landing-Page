@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+    .primary-button {
+        @apply bg-primary-main text-gray-main font-semibold;
+    }
+
+    .secondary-button {
+        @apply bg-none font-semibold border-2 border-solid text-primary-main border-primary-main;
+    }
+}

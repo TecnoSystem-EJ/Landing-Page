@@ -1,0 +1,37 @@
+{
+  "id": "floatwpp",
+  "label": "FloatWpp",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "whatsapp": {
+        "type": "Group",
+        "config": {
+          "label": "whatsapp",
+          "repeat": true,
+          "fields": {
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "link",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "icon": {
+              "type": "Select",
+              "config": {
+                "label": "icon",
+                "placeholder": "",
+                "options": ["1", "0"],
+                "default_value": "1"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

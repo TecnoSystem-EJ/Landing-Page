@@ -1,0 +1,115 @@
+{
+  "id": "header_section",
+  "type": "SharedSlice",
+  "name": "HeaderSection",
+  "description": "HeaderSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "company_name": {
+          "type": "Text",
+          "config": {
+            "label": "Company Name",
+            "placeholder": ""
+          }
+        },
+        "sub_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub_title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "button_text_1": {
+          "type": "Text",
+          "config": {
+            "label": "Button Text 1",
+            "placeholder": ""
+          }
+        },
+        "button_link_1": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link 1",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "button_text_2": {
+          "type": "Text",
+          "config": {
+            "label": "Button Text 2",
+            "placeholder": ""
+          }
+        },
+        "button_link_2": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link 2",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "image_1": {
+          "type": "Image",
+          "config": {
+            "label": "Image 1",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "image_2": {
+          "type": "Image",
+          "config": {
+            "label": "Image 2",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "image_3": {
+          "type": "Image",
+          "config": {
+            "label": "Image 3",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "text_card_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text Card Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          }
+        },
+        "text_card_subtitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text Card Subtitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {
+        "topics": {
+          "type": "Text",
+          "config": {
+            "label": "Topics",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}
